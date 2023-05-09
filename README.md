@@ -1,12 +1,15 @@
 # A Local Interface to Manage Your Subscriptions and Send Emails with Postmark and Node.js
 
-This is a REST API built to be used locally on your machine to manage subscribers from your mailing list (MongoDB) and send Broadcast Emails using the Postmark API.
+This is a REST API built to be used locally on your machine to manage subscribers from your mailing list (MongoDB Collection) and send Broadcast Emails using the Postmark API.
 
 ## Features
 
-- Retrieve Subscribers List from MongoDB.
+- Retrieve Subscribers Collection from MongoDB.
 - Send Preview Email to one Address. Could be your own, or postmark's test address.
-- Send Broadcast Email to all Subscribers of MongoDB List.
+- Send Broadcast Email to all Subscribers of MongoDB Collection.
+- Switch between MongoDB Collections.
+
+## Status: In Progress
 
 ## Built with
 
@@ -41,8 +44,6 @@ MONGO_URI = Your MongoDB URI
 POSTMARK_KEY = Your Postmark API key
 ```
 
-## Status: In Progress
-
 ## Checklist:
 
 1. Backend
@@ -61,7 +62,7 @@ POSTMARK_KEY = Your Postmark API key
 - Send Preview :ok_hand:
 - Select Preview Address
 - Input Template Number
-- Select between subscriber lists
+- Select between MongoDB Collections
 
 ## Additional Resources
 
