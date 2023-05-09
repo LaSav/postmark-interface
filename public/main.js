@@ -3,7 +3,7 @@ function getSubscribers() {
     .get('http://localhost:3000/api/subscribers/', {
       timeOut: 5000,
     })
-    .then((res) => showOutput(res))
+    .then((res) => showSubscribers(res))
     .catch((err) => console.log(err));
 }
 
@@ -12,7 +12,7 @@ function getBroadcasts() {
     .get('http://localhost:3000/api/broadcast/', {
       timeOut: 5000,
     })
-    .then((res) => showOutput2(res))
+    .then((res) => showBroadcasts(res))
     .catch((err) => console.log(err));
 }
 
@@ -77,7 +77,7 @@ function getBroadcasts() {
 //   }
 // }
 
-function showOutput(res) {
+function showSubscribers(res) {
   const subscribers = res.data;
   // console.log(subscribers);
   // const emails = subscribers.map((subscriber) => subscriber.email);
@@ -97,7 +97,7 @@ function showOutput(res) {
   placeholder.innerHTML = out;
 }
 
-function showOutput2(res) {
+function showBroadcasts(res) {
   const broadcasts = res.data;
   // console.log(broadcasts);
   // const emails = broadcasts.map((broadcast) => broadcast.email);

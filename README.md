@@ -46,21 +46,20 @@ POSTMARK_KEY = Your Postmark API key
 
 ## Checklist:
 
-1. Backend
+#### Backend
 
 - GET Subscribers :ok_hand:
 - POST Broadcast :ok_hand:
 - GET Broadcasts :ok_hand:
 
-2. Frontend
+#### Frontend
 
 - GET Subscribers :ok_hand:
 - POST Broadcast :ok_hand:
 - GET Broadcasts :ok_hand:
 - Errors :ok_hand:
 - Send Preview :ok_hand:
-- Select Preview Address
-- Input Template Number
+- Input Template Number Validation
 - Select between MongoDB Collections
 
 ## Additional Resources
