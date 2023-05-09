@@ -9,7 +9,7 @@ This is a REST API built to be used locally on your machine to manage subscriber
 - Send Broadcast Email to all Subscribers of MongoDB Collection.
 - Switch between MongoDB Collections.
 
-## Status: In Progress
+## Status: In Progress :hourglass_flowing_sand:
 
 ## Built with
 
@@ -51,7 +51,6 @@ POSTMARK_KEY = Your Postmark API key
 - GET Subscribers :ok_hand:
 - POST Broadcast :ok_hand:
 - GET Broadcasts :ok_hand:
-- PUT Unsubscribe
 
 2. Frontend
 
