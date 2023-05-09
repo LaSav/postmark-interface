@@ -66,4 +66,7 @@ POSTMARK_KEY = Your Postmark API key
 ## Additional Resources
 
 [Postmark Developer Guide](https://postmarkapp.com/developer)
+
+#### Need to Store Subscribers and Send Transactional Emails? Check out:
+
 [REST API to Send Transactional Emails With Postmark and Node.js](https://github.com/LaSav/postmark-transactional-form)
